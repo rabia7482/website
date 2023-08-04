@@ -1,0 +1,182 @@
+body{
+background-color:#7b7b4a;
+
+}
+.container{
+ width:800px;
+ height:800px;
+ margin-left:210px;
+}
+.center{
+width:800px;
+height:100px;
+padding:10px;
+}
+.top{
+ width:800px;
+ height:500px;
+padding:10px;
+}
+.bottom{
+ width:800px;
+ height:100px;
+ 
+ display: flex;
+ text-align: center;
+}
+
+
+.top nav{
+text-align:center;
+padding-top:6px;
+overflow:hidden;
+
+
+}
+.top nav a{
+text-decoration:none;
+color:#0e3013;
+padding:14px;
+float:left;
+display:block;
+background-color:#8ca894;
+text-align:center;
+
+}
+.top nav a:hover{
+ color:#dd1c1a;
+ background-color:white;
+}
+h2{
+color:#0e3013;
+}
+p{
+width:300px;
+padding:50px;
+border:20px solid #8ca894;
+text-align:left;
+background-color:white;
+}
+p.line{
+margin:10px auto 10px auto;
+text-align:left;
+background-color:white;
+}
+img{
+width:150px;
+height:200px;
+opacity:0.9;
+padding:20px auto 20px auto;
+}
+p1{
+color:#b9bab8;
+}
+p img{
+ width:100px;
+ height:150px;
+float:left;
+}
+p.line img{
+width:100px;
+ height:100px;
+float:right;
+}
+h1{
+color:#b9bab8;
+display:block;
+text-shadow:2px 3px black;
+justify-content: center;
+text-align: center;
+}
+h4{
+color:yellow;
+font-size:20px;
+ text-align: center;
+
+}
+#img2{ display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    height:600px;
+    float: right;
+    width: 700px;
+}
+p1
+{
+height:100%;
+text-align:bottom;
+padding:10px;
+}
+h3{
+text-align:center;
+color:#f8e9f2;
+text-shadow:3px 2px black;
+font-size:40px;
+}
+.form{
+   float:right;
+   width: 50%; 
+   gap: 50px;
+   padding-right: 200px;
+}
+
+.input_field{
+border: 2px;
+width: 100%;
+border-radius: 5px;
+}
+textarea{
+    border:2px #0e3013;
+    border-radius: 4px;
+}
+.contact_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.button{
+    width: 80%px;
+}
+input[type="submit"]{
+    
+    background-color: #8ca894;
+    color:rgba(1, 46, 1, 0.963);
+    
+    padding: 10px;
+    border-radius: 5px;
+    width: 370px;
+    cursor: pointer;
+}
+.btn{
+    float:right;
+    cursor: pointer;
+}
+#search{
+    padding-top: 0;
+    margin-top:0px ;
+    float: left;
+    cursor: pointer;
+    margin-left:573px;
+}
+
+.left{
+    justify-content: left;
+    text-align: left;
+    float:left;
+    margin-left:2px;
+}
+.container :right{
+    margin-left: 6px;
+}
+h5{
+    font-size: 30px;
+}
+input[type="submit"]:hover{
+background-color:#45a049;
+}
+.contact-info pl{
+    color: black;
+}

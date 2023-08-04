@@ -1,0 +1,91 @@
+<head>
+  <title>index</title>
+  <link href="mystyle2.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+
+    <input type="text" name="search" id="search">
+    <button class="btn btn-sm">search</button>
+
+    <div class="top">
+      <h1>THE BAKED PLACE</h1>
+      <nav>
+        <a href="rabiatu7482.html">RABIA</a>
+        <a href="about.html">ABOUT</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href style="float:right"
+          ="contact.html">CONTACT</a>
+
+      </nav>
+      <main>
+        <h4>FOR MORE INFO</h4>
+        <div class="contact_div">
+          <div>
+            <div class="form_div">
+              <form method="post" action onsubmit="validateForm()">
+                <input class="input_field" type="text" id="name"
+                  placeholder="fullname" />
+                <br>
+                <br>
+                <input class="input_field" type="e-mail" id="email"
+                  placeholder="e-mail" />
+                <br>
+                <br>
+                <input class="input_field" type="phone number" id="number"
+                  placeholder="phone number" />
+                <br>
+                <br>
+                <textarea
+                  cols="50"
+                  rows="12" placeholder="Text your message here">
+
+                </textarea>
+              </div>
+              <input type="submit" value="Submit">
+            </div>
+
+          </div>
+        </main>
+
+      </div>
+    </div>
+    <div class="contact-info">
+      <pl> You can also contact us by phone at <strong>+23408156789043</strong>0r
+        by email at <strong>arabey@rabia.com</strong></pl>
+      <pl>Our open hours are Monday-friday,9am-4pm</pl>
+
+    </div>
+    <div class="bottom">
+      <p1>RABIATU:&copy;2023</p1>
+    </div>
+  </div>
+  <script>
+  function validateForm(){
+    var name=document.getElementById("name").value;
+    var email=document.getElementById("email").value;
+    var number=document.getElementById("number").value;
+    
+    var errors=[];
+    if (name==""){
+      errors.push("please enter your name");
+    }
+    if (email==""){
+      errors.push("please enter your email");
+    }
+    if (number==""){
+      errors.push("please enter your number");
+    }
+    
+    if(errors.length == 0){
+      alert('No Errors')
+      return true;
+    }else{
+      alert(errors.join('\n'))
+      return false;
+    }
+  }
+</script>
+</body>
+<html>
